@@ -6,7 +6,20 @@ This repository is intentionally lightweight. Students only need Python, VS Code
 
 ## Workshop flow
 
-### Part 1 — Supervised learning: Teachable Machine
+### Part 1 — Supervised learning: browser-based image classifier
+
+Students can use **any one** of these browser tools:
+
+1. **Teachable Machine — Image Project**  
+   https://teachablemachine.withgoogle.com/train/image
+
+2. **SkillSafe Image Trainer**  
+   https://image-trainer.skillsafe.ai/
+
+3. **WebAI Playground — Image Classifier**  
+   https://mlhs.ink/Playground/
+
+Use whichever service is accessible on the workshop network. The biological exercise and dataset are the same for all three tools.
 
 Students train an image classifier using four butterfly species:
 
@@ -20,6 +33,8 @@ After testing on held-out images of the same species, the model is challenged wi
 - *Eurema hecabe*
 
 **Question:** What does a closed-set classifier do when the correct biological class was never included in training?
+
+Detailed instructions are provided in `SUPERVISED_HANDS_ON.md`.
 
 ### Part 2 — Unsupervised learning: flower clustering
 
@@ -51,7 +66,11 @@ The biological labels are hidden during the activity. Students vary K, inspect t
 afec-x-ai-workshop-2026/
 ├── README.md
 ├── requirements.txt
+├── SUPERVISED_HANDS_ON.md
+├── STUDENT_SETUP_WINDOWS.md
+├── STUDENT_SETUP_MACOS.md
 ├── setup_windows.ps1
+├── setup_macos.sh
 ├── scripts/
 │   └── download_workshop_dataset.py
 ├── data/
@@ -144,7 +163,7 @@ Install the **Python** and **Jupyter** extensions in VS Code if needed. Open the
 
 ## Instructor note
 
-The final image dataset should be downloaded and visually audited before class. Keep the unknown butterfly species out of Teachable Machine training. Keep the flower answer key hidden until the final reveal.
+The final image dataset should be downloaded and visually audited before class. Keep the unknown butterfly species out of the supervised classifier training set, regardless of which browser tool is used. Keep the flower answer key hidden until the final reveal.
 
 ## Take-home message
 
