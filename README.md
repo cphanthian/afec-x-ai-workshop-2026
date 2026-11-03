@@ -67,6 +67,31 @@ afec-x-ai-workshop-2026/
     └── 01_flower_kmeans_student.ipynb
 ```
 
+## Quick setup
+
+### Windows
+
+From PowerShell in the repository folder:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\setup_windows.ps1
+```
+
+See `STUDENT_SETUP_WINDOWS.md` for the full zero-to-ready guide.
+
+### macOS
+
+From Terminal in the repository folder:
+
+```bash
+bash setup_macos.sh
+```
+
+See `STUDENT_SETUP_MACOS.md` for the full zero-to-ready guide.
+
+---
+
 ## Windows setup
 
 ### 1. Install Python 3.11
