@@ -34,7 +34,7 @@ After testing on held-out images of the same species, the model is challenged wi
 
 **Question:** What does a closed-set classifier do when the correct biological class was never included in training?
 
-Detailed instructions are provided in `SUPERVISED_HANDS_ON.md`.
+Detailed instructions are provided in `notebooks/SUPERVISED_HANDS_ON.md`.
 
 ### Part 2 — Unsupervised learning: flower clustering
 
